@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/rawdb"
+	"github.com/kryptogo/go-ethereum-arbitrum/crypto"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -23,13 +23,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/core"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/rawdb"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/types"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/vm"
+	"github.com/kryptogo/go-ethereum-arbitrum/crypto"
+	"github.com/kryptogo/go-ethereum-arbitrum/params"
 	"golang.org/x/exp/slices"
 )
 

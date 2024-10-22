@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/kryptogo/go-ethereum-arbitrum/beacon/engine"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/consensus/ethash"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/rawdb"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/types"
+	"github.com/kryptogo/go-ethereum-arbitrum/params"
 )
 
 func TestBuildPayload(t *testing.T) {

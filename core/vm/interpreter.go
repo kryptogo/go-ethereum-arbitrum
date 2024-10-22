@@ -17,11 +17,11 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/common/math"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/state"
+	"github.com/kryptogo/go-ethereum-arbitrum/crypto"
+	"github.com/kryptogo/go-ethereum-arbitrum/log"
 )
 
 // Config are the configuration options for the Interpreter

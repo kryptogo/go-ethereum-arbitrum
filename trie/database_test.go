@@ -17,12 +17,12 @@
 package trie
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/triedb/database"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/rawdb"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/types"
+	"github.com/kryptogo/go-ethereum-arbitrum/ethdb"
+	"github.com/kryptogo/go-ethereum-arbitrum/trie/trienode"
+	"github.com/kryptogo/go-ethereum-arbitrum/triedb/database"
 )
 
 // testReader implements database.Reader interface, providing function to

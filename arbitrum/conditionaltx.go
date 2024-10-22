@@ -4,14 +4,14 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/arbitrum_types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/kryptogo/go-ethereum-arbitrum/arbitrum_types"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/common/hexutil"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/types"
+	"github.com/kryptogo/go-ethereum-arbitrum/crypto"
+	"github.com/kryptogo/go-ethereum-arbitrum/internal/ethapi"
+	"github.com/kryptogo/go-ethereum-arbitrum/log"
+	"github.com/kryptogo/go-ethereum-arbitrum/rpc"
 )
 
 type ArbTransactionAPI struct {

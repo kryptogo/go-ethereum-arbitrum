@@ -29,8 +29,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/kryptogo/go-ethereum-arbitrum/accounts/abi"
+	"github.com/kryptogo/go-ethereum-arbitrum/log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

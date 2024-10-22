@@ -22,16 +22,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/core"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/types"
+	"github.com/kryptogo/go-ethereum-arbitrum/crypto"
+	"github.com/kryptogo/go-ethereum-arbitrum/eth"
+	"github.com/kryptogo/go-ethereum-arbitrum/eth/downloader"
+	"github.com/kryptogo/go-ethereum-arbitrum/eth/ethconfig"
+	"github.com/kryptogo/go-ethereum-arbitrum/node"
+	"github.com/kryptogo/go-ethereum-arbitrum/p2p"
+	"github.com/kryptogo/go-ethereum-arbitrum/params"
 )
 
 func startSimulatedBeaconEthService(t *testing.T, genesis *core.Genesis) (*node.Node, *eth.Ethereum, *SimulatedBeacon) {

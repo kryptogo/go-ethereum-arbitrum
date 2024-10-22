@@ -22,12 +22,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/common/math"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/rawdb"
+	"github.com/kryptogo/go-ethereum-arbitrum/ethdb"
+	"github.com/kryptogo/go-ethereum-arbitrum/ethdb/memorydb"
+	"github.com/kryptogo/go-ethereum-arbitrum/log"
 )
 
 const (

@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/kryptogo/go-ethereum-arbitrum/accounts"
+	"github.com/kryptogo/go-ethereum-arbitrum/accounts/keystore"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/common/hexutil"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/types"
+	"github.com/kryptogo/go-ethereum-arbitrum/internal/ethapi"
+	"github.com/kryptogo/go-ethereum-arbitrum/rlp"
+	"github.com/kryptogo/go-ethereum-arbitrum/signer/core"
+	"github.com/kryptogo/go-ethereum-arbitrum/signer/core/apitypes"
+	"github.com/kryptogo/go-ethereum-arbitrum/signer/fourbyte"
+	"github.com/kryptogo/go-ethereum-arbitrum/signer/storage"
 )
 
 // Used for testing

@@ -29,17 +29,17 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/gofrs/flock"
+	"github.com/kryptogo/go-ethereum-arbitrum/accounts"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/common/hexutil"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/rawdb"
+	"github.com/kryptogo/go-ethereum-arbitrum/ethdb"
+	"github.com/kryptogo/go-ethereum-arbitrum/ethdb/pebble"
+	"github.com/kryptogo/go-ethereum-arbitrum/event"
+	"github.com/kryptogo/go-ethereum-arbitrum/log"
+	"github.com/kryptogo/go-ethereum-arbitrum/p2p"
+	"github.com/kryptogo/go-ethereum-arbitrum/rpc"
 )
 
 // Node is a container on which services can be registered.

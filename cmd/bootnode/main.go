@@ -25,13 +25,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/kryptogo/go-ethereum-arbitrum/cmd/utils"
+	"github.com/kryptogo/go-ethereum-arbitrum/crypto"
+	"github.com/kryptogo/go-ethereum-arbitrum/log"
+	"github.com/kryptogo/go-ethereum-arbitrum/p2p/discover"
+	"github.com/kryptogo/go-ethereum-arbitrum/p2p/enode"
+	"github.com/kryptogo/go-ethereum-arbitrum/p2p/nat"
+	"github.com/kryptogo/go-ethereum-arbitrum/p2p/netutil"
 )
 
 func main() {

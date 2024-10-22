@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/kryptogo/go-ethereum-arbitrum/params"
 )
 
 var (

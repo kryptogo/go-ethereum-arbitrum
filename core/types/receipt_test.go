@@ -24,10 +24,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/holiman/uint256"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/params"
+	"github.com/kryptogo/go-ethereum-arbitrum/rlp"
 	"github.com/kylelemons/godebug/diff"
 )
 

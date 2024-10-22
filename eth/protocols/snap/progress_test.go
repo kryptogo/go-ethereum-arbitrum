@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
 )
 
 // Legacy sync progress definitions

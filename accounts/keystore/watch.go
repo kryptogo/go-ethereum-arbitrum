@@ -23,8 +23,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/fsnotify/fsnotify"
+	"github.com/kryptogo/go-ethereum-arbitrum/log"
 )
 
 type watcher struct {

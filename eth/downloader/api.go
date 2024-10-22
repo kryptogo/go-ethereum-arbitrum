@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/kryptogo/go-ethereum-arbitrum"
+	"github.com/kryptogo/go-ethereum-arbitrum/core"
+	"github.com/kryptogo/go-ethereum-arbitrum/event"
+	"github.com/kryptogo/go-ethereum-arbitrum/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current

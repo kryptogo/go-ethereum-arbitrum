@@ -24,13 +24,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/kryptogo/go-ethereum-arbitrum/common/mclock"
+	"github.com/kryptogo/go-ethereum-arbitrum/event"
+	"github.com/kryptogo/go-ethereum-arbitrum/log"
+	"github.com/kryptogo/go-ethereum-arbitrum/metrics"
+	"github.com/kryptogo/go-ethereum-arbitrum/p2p/enode"
+	"github.com/kryptogo/go-ethereum-arbitrum/p2p/enr"
+	"github.com/kryptogo/go-ethereum-arbitrum/rlp"
 	"golang.org/x/exp/slices"
 )
 

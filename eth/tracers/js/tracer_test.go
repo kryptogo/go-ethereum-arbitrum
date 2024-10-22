@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/state"
+	"github.com/kryptogo/go-ethereum-arbitrum/core/vm"
+	"github.com/kryptogo/go-ethereum-arbitrum/eth/tracers"
+	"github.com/kryptogo/go-ethereum-arbitrum/params"
 )
 
 type account struct{}

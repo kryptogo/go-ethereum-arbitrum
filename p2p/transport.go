@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/kryptogo/go-ethereum-arbitrum/common"
+	"github.com/kryptogo/go-ethereum-arbitrum/common/bitutil"
+	"github.com/kryptogo/go-ethereum-arbitrum/metrics"
+	"github.com/kryptogo/go-ethereum-arbitrum/p2p/rlpx"
+	"github.com/kryptogo/go-ethereum-arbitrum/rlp"
 )
 
 const (
